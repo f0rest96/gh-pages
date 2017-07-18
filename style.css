@@ -1,3 +1,10 @@
+/* *****FIX ***** */
+
+article, aside, footer, header, nav, section {
+    display: block;
+    overflow: hidden;
+}
+
 /*=========[GLOBAL]=========*/
 
 body , html {
@@ -7,6 +14,11 @@ body , html {
     padding: 0;
 }
 
+section {
+ 
+    overflow:hidden;
+    
+}
 
 .main-color{
     
@@ -376,7 +388,11 @@ hr {
     text-align: center;
     
 }
-
+#contactme {
+ 
+    overflow:hidden;
+    
+}
 .portfolio {
     
     width: 100%;
@@ -417,8 +433,8 @@ hr {
 body {
   
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(229, 76, 25, 0.95);
   font-weight: 000;
+  
   -webkit-font-smoothing: antialiased;
 }
 
@@ -428,7 +444,9 @@ body {
     text-align: center;
     max-width: 100%;
     margin: 0 auto;
-    margin-top: 90px;
+    padding-top: 90px;
+    overflow:hidden;
+    background-color: rgba(229, 76, 25, 0.95);
 }
 
 label {
