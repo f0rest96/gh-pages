@@ -1,10 +1,3 @@
-/* *****FIX ***** */
-
-article, aside, footer, header, nav, section {
-    display: block;
-    overflow: hidden;
-}
-
 /*=========[GLOBAL]=========*/
 
 body , html {
@@ -14,11 +7,6 @@ body , html {
     padding: 0;
 }
 
-section {
- 
-    overflow:hidden;
-    
-}
 
 .main-color{
     
@@ -76,6 +64,12 @@ nav {
 }
 
 
+#contactme {
+    
+    overflow: hidden;
+    
+}
+
 .parallax {
     
     
@@ -90,7 +84,7 @@ nav {
     background-image: var(--aboutme-img);
 
     /* Full height */
-    height: 100%; 
+    height: 60%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -104,7 +98,7 @@ nav {
     background-image: var(--aboutme-img);
 
     /* Full height */
-    height: 100%; 
+    height: 60%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -256,6 +250,7 @@ hr {
     padding-top:100px;
     padding-bottom: 50px;
     margin: 0 auto !important;
+    overflow: hidden;
 }
 
 #aboutme ul > li {
@@ -386,13 +381,10 @@ hr {
     padding: 0 !important;
     margin: 0 !important;
     text-align: center;
+    overflow: hidden;
     
 }
-#contactme {
- 
-    overflow:hidden;
-    
-}
+
 .portfolio {
     
     width: 100%;
@@ -405,7 +397,14 @@ hr {
     left: 5%;
     margin: 3% ;
     border: 1px solid #888;
+    overflow: hidden;
 }
+
+article, aside, footer, header, nav, section {
+    display: block;
+    overflow: hidden;
+}
+
 
 /*=======[ FOOTER CSS ]=======*/
 #footer {
@@ -433,8 +432,8 @@ hr {
 body {
   
   color: rgba(255, 255, 255, 1);
-  font-weight: 000;
   
+  font-weight: 000;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -445,8 +444,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     padding-top: 90px;
-    overflow:hidden;
-    background-color: rgba(229, 76, 25, 0.95);
+    background-color: rgba(111,111,111,0.95);
 }
 
 label {
