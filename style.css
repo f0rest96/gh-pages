@@ -381,7 +381,11 @@ hr {
     text-align: center;
     
 }
-
+#contactme {
+ 
+    overflow:hidden;
+    
+}
 .portfolio {
     
     width: 100%;
